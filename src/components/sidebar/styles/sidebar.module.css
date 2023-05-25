@@ -1,3 +1,26 @@
-.sidebar_container{
-    background-color: red;
+.sidebar_container {
+    background-color: #c0c8d1;
+    font-size: 25px;
+}
+
+.sidebar_container>ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+}
+
+.sidebar_container>ul>li {
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600;
+    color:rgb(32, 31, 31);
+}
+
+.activeTab {
+    background-color: #d9d9d9;
+    color: blue !important;
+
 }

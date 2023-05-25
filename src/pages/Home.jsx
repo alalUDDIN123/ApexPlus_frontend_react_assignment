@@ -5,14 +5,19 @@ import Sidebar from '../components/sidebar/Sidebar';
 import ComponentRenderer from '../components/componentRenderer/ComponentRenderer';
 
 function Home() {
-  const [activeComponent, setActiveComponent] = useState('home');
+  const [activeComponent, setActiveComponent] = useState('AddScenario');
+
+  const setActiveTabAndActiveToSidebar = {
+    activeComponent: activeComponent,
+    setActiveComponent: setActiveComponent
+  };
 
   return (
     <>
       <div className={styles.home_container} >
 
         {/* sidebar */}
-        <Sidebar setActiveComponent={setActiveComponent} />
+        <Sidebar {...setActiveTabAndActiveToSidebar} />
 
         {/* main component */}
         <ComponentRenderer activeComponent={activeComponent} />

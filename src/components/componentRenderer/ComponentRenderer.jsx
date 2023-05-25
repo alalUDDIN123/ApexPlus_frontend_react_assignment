@@ -3,7 +3,7 @@ import HomePage from '../home/HomePage';
 import AddScenario from '../scenario/AddScenario';
 import AllScenaros from '../scenario/AllScenaros';
 import AddVehicle from '../vehicle/AddVehicle';
-
+import styles from "./componentRenderer.module.css"
 
 function ComponentRenderer({ activeComponent }) {
     
@@ -25,7 +25,7 @@ function ComponentRenderer({ activeComponent }) {
     }
   };
 
-  return <div>{ReturnActiveComponent(activeComponent)}</div>;
+  return <div className={styles.componentRender_container} >{ReturnActiveComponent(activeComponent)}</div>;
 }
 
 export default ComponentRenderer;

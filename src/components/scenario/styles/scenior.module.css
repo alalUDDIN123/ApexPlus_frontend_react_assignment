@@ -1,0 +1,112 @@
+.AddScenior_container {
+    height: 330px;
+    padding: 0px 50px 20px 50px;
+}
+
+.AddScenior_container>div:first-child {
+    font-family: sans-serif;
+    color: white;
+}
+
+.AddScenior_container>div:nth-child(2) {
+    margin-top: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.addScenarioForm_container_form_input {
+    background-color: #333333;
+    height: 120px;
+    margin: 15px 0px;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.addScenarioForm_container_form_input>div {
+    width: 40%;
+}
+
+
+
+.addScenarioForm_container_form_input label {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    font-size: 18px;
+}
+
+.addScenarioForm_container_form_input input[type="text"],
+.addScenarioForm_container_form_input input[type="number"] {
+    padding: 12px 10px;
+    border: none;
+    border-radius: 3px;
+    width: 350px;
+    font-size: 18px;
+    background-color: #252526;
+    color: white;
+}
+
+.addScenarioForm_container_form_input input[type="text"],
+.addScenarioForm_container_form_input input[type="number"]::placeholder {
+    color: #aaaaaa;
+}
+
+.addScenarioForm_container_form_input input[type="text"],
+.addScenarioForm_container_form_input input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px #7fe609;
+}
+
+
+
+/* buttons CSS */
+.addButton {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.resetButton {
+    background-color: #e37933;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.goBackButton {
+    background-color: #4a9aba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.addButton:disabled,
+.resetButton:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.errorMessage {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}

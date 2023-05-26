@@ -110,3 +110,80 @@
     font-size: 16px;
     margin-top: 10px;
 }
+
+
+/* all Scenarios CSS 👍👍👍👍👍 */
+
+
+
+.allScenior_container {
+    padding: 20px 40px 30px 50px;
+}
+
+.allScenior_container_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.allScenior_container_header h3 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header_button {
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-left: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new_ScenarioBtn {
+    background-color: #4a9aba;
+}
+
+.add_vehicleBtn {
+    background-color: #5cb85c;
+}
+
+.delete_ScenarioBtn {
+    background-color: #e37933;
+}
+
+.scenario_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.scenario_table thead {
+    color: white;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #333333, #333);
+    color: white;
+}
+
+.scenario_table tbody {
+    background-color: white;
+    font-family: sans-serif ;
+    font-weight: 550;
+}
+
+
+.scenario_table th,
+.scenario_table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.scenario_table td {
+    border-bottom: 1px solid #000;
+}
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}

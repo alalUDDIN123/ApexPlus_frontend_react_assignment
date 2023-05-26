@@ -1,3 +1,118 @@
-.AddVehicle_container{
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.AddVehicle_container {
+   height: 380px;
+   padding: 0px 50px 20px 50px;
+   font-family: sans-serif;
+}
+
+.AddVehicle_container_header {
+   color: white;
+
+
+}
+
+.AddVehicle_container_header h3,
+.AddVehicle_container_headTitle h3 {
+   font-size: 20px;
+}
+
+.AddVehicle_container_headTitle {
+   margin-top: 30px;
+   color: #fff;
+
+}
+
+
+/*.AddVehicle_form CSS 👍 */
+
+
+.AddVehicle_form>div:first-child {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   background-color: #333333;
+   height: 200px;
+   padding: 10px 20px;
+   gap: 10px 20px;
+   border-radius: 4px;
+   margin-bottom: 20px;
+}
+
+.AddVehicle_form>div:first-child>div label {
+   color: white;
+   font-family: sans-serif;
+   font-weight: 600;
+   margin-bottom: 8px;
+   display: block;
+   font-size: 18px;
+}
+
+.AddVehicle_form>div:first-child>div select {
+   width: 275px;
+   padding: 10px;
+   background-color: #333333;
+   border-radius: 3px;
+   color: white;
+}
+
+
+
+.AddVehicle_form>div:first-child>div input {
+   padding: 10px;
+   width: 250px;
+   background-color: #333333;
+   border-radius: 3px;
+   color: white;
+}
+
+.AddVehicle_form>div:first-child>div input[type="text"]:focus,
+.AddVehicle_form>div:first-child>div select:focus {
+   outline: none;
+
+}
+
+
+/* buttons CSS */
+.addButton {
+   background-color: #5cb85c;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.resetButton {
+   background-color: #e37933;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   margin-right: 10px;
+}
+
+.goBackButton {
+   background-color: #4a9aba;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.addButton:disabled,
+.resetButton:disabled {
+   opacity: 0.5;
+   cursor: not-allowed;
+}
+
+.errorMessage {
+   color: white;
+   font-family: sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   margin-top: 10px;
 }
